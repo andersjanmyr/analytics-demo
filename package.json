@@ -1,0 +1,36 @@
+{
+  "name": "analytics-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "node_modules/.bin/supervisor server.js"
+  },
+  "jshintConfig": {
+    "bitwise": true,
+    "camelcase": true,
+    "curly": false,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": "nofunct",
+    "quotmark": "single",
+    "newcap": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "globalstrict": true,
+    "trailing": true,
+    "maxparams": 4,
+    "maxdepth": 2,
+    "maxcomplexity": 6,
+    "node": true,
+    "browser": true
+  },
+  "dependencies": {
+    "express": "",
+    "socket.io": ""
+  },
+  "devDependencies": {
+    "supervisor": ""
+  }
+}

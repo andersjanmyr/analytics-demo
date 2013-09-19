@@ -1,0 +1,7 @@
+{
+    "sm": {
+        "events": [
+            { "name": "curl", "target": "update"}
+        ]
+    }
+}
