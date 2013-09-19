@@ -30,4 +30,18 @@ below.
 This way analytics can be sent along with any POST, PUT, other request that
 sends JSON in the body. The JSON is handled in the `analytics-middleware`
 
+## /analytics
+
+Events can also be sent directly to the server by POSTing to `/analytics`.
+The input data to this endpoint is the events part in the request above.
+
+```
+{
+  "events": [
+    { "name": "curl", "target": "update"}
+  ]
+}
+```
+
+This is a work in progress...
 
